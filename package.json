@@ -1,0 +1,28 @@
+{
+  "name": "hooker",
+  "version": "1.0.0",
+  "description": "webhook interfaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leftshifters/hooker.git"
+  },
+  "keywords": [
+    "webhook",
+    "slack"
+  ],
+  "author": "Debjeet Biswas <debjeet@leftshift.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leftshifters/hooker/issues"
+  },
+  "homepage": "https://github.com/leftshifters/hooker",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "express": "^4.12.0",
+    "github": "^0.2.3"
+  }
+}
