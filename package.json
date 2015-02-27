@@ -4,7 +4,7 @@
   "description": "webhook interfaces",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "DEBUG=hooker* nodemon index"
   },
   "repository": {
     "type": "git",
@@ -19,13 +19,11 @@
   "bugs": {
     "url": "https://github.com/leftshifters/hooker/issues"
   },
-  "scripts": {
-    "start": "DEBUG=hooker* nodemon index"
-  },
   "homepage": "https://github.com/leftshifters/hooker",
   "dependencies": {
     "debug": "^2.1.1",
     "express": "^4.12.0",
-    "github": "^0.2.3"
+    "github": "^0.2.3",
+    "newrelic": "^1.17.0"
   }
 }
