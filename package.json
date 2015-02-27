@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/leftshifters/hooker/issues"
   },
+  "scripts": {
+    "start": "DEBUG=hooker* nodemon index"
+  },
   "homepage": "https://github.com/leftshifters/hooker",
   "dependencies": {
     "debug": "^2.1.1",
